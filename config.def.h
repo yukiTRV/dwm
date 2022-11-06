@@ -89,7 +89,7 @@ static Key keys[] = {
         { MODKEY|ShiftMask,             XK_k,      movestack,      {.i = -1 } },
 	{0,                             prnt,      spawn,          SHCMD("scrot -s -z --line mode=edge ~/pictures/screenshots/%d-%m-%Y-%T-screenshot.png -e 'xclip -selection clipboard -t image/png -i $f'")}, // Screenshot
 	{MODKEY,                        XK_BackSpace, spawn,       SHCMD("dmenupower")},
-	{MODKEY,                        XK_e, spawn,                  SHCMD("dmenudoc")},
+	{MODKEY,                        XK_p, spawn,                  SHCMD("dmenudoc")},
 	{0,                              XF86XK_AudioRaiseVolume, spawn,                  SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +5% | pkill -RTMIN+3 dwmblocks")},
 	{0,                              XF86XK_AudioLowerVolume, spawn,                  SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5% | pkill -RTMIN+3 dwmblocks")},
 	{Mod1Mask,                      XK_Shift_L, spawn,                  SHCMD("pkill -RTMIN+10 dwmblocks")},
