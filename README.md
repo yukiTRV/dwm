@@ -2,7 +2,7 @@
 
 The dwm build I use, it's very minimalist, just a few patches and tweaks.
 
-![alt text](https://i.imgur.com/TU81Gel.png)
+![alt text](https://i.imgur.com/zkPIcai.png)
 
 ## Patches 
 
